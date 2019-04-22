@@ -1,0 +1,70 @@
+html {
+    background-color: rgb(209, 235, 148);
+    font-size: auto;
+    -webkit-tap-highlight-color: transparent;
+    font-family: sans-serif;
+    -webkit-text-size-adjust: auto;
+    -ms-text-size-adjust: auto;
+    min-width: 1382px;
+    min-width: 992px;
+    min-width: 600px;
+    min-width: 480px
+
+}
+
+@media print { }
+ 
+@media only screen and (min-width: 480px) { }
+@media only screen and (min-width: 600px) { }
+@media only screen and (min-width: 992px) { }
+@media only screen and (min-width: 1382px) { }
+ 
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) { }
+
+
+/* aplica somente a partir de 320px */
+@media screen and (min-width: 320px) {
+   body { font-size: 80%; }
+}
+ 
+/* aplica somente a partir de 480px em landscape */
+@media screen and (min-width: 480px) and (orientation: landscape) {
+   nav { float: left; }
+ 
+}
+
+h2{
+	background-color:#24554C;
+	color: antiquewhite;
+	border:2px solid grey;
+        padding:10px;
+        margin:30px;
+	
+	
+}
+
+p{
+background-color:black;
+color:white;
+border:1px solid grey;
+padding:10px;
+margin:30px;
+font-size:100%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+form {
+    border:1px solid grey;
+	padding:25px;
+	margin:30px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 150%;
+}
+
+a { 
+font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+
+}
